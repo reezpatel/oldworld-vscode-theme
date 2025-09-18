@@ -1,0 +1,23 @@
+{
+  "name": "oldworlddark",
+  "displayName": "Old World Theme",
+  "description": "A dark theme for Visual Studio Code inspired by vintage aesthetics and modern code readability.",
+  "icon": "assets/oldworld-logo.png",
+  "version": "0.0.2",
+  "engines": {
+    "vscode": "^1.104.0"
+  },
+  "publisher": "ReezPatel",
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Old World Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/oldworld-dark.json"
+      }
+    ]
+  }
+}
